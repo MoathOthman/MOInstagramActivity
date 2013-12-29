@@ -18,7 +18,6 @@
 
 
 
-@interface MOInstagramActivity : UIActivity<UIDocumentInteractionControllerDelegate>
-@property (nonatomic, strong) UIDocumentInteractionController *dic;
-@property(nonatomic,strong)id <MOInstagramActivityDelegate>delegate;
+@interface MOInstagramActivity : UIActivity 
+ @property(nonatomic,strong)id <MOInstagramActivityDelegate>delegate;
 @end
